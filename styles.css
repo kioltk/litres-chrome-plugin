@@ -1,0 +1,13 @@
+.download {
+  background: #ccc;
+  margin: 4px 10px;
+  padding: 6px;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  color: #444;
+  line-height: 16px;
+  height: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

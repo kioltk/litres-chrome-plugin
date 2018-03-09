@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Litres download book",
+  "description": "This extension will append a button to download the book",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://rs.litres.ru/static/or4/view/*"],
+      "js": ["jquery-3.3.1.min.js", "script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": [
+    "downloads",
+    "fileBrowserHandler",
+    "fileSystemProvider",
+    "unlimitedStorage"
+  ],
+
+  "web_accessible_resources": ["img/*.png"]
+}
